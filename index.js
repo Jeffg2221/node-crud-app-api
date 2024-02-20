@@ -20,7 +20,7 @@ app.get('/', function (req, res) {
 
 
 
-mongoose.connect("mongodb+srv://jeffg2221:CZ6Zf0Pb7271SZKP@backenddb.iz2gxkz.mongodb.net/Node-API?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://jeffg2221:password.iz2gxkz.mongodb.net/Node-API?retryWrites=true&w=majority")
 .then(() => {
     console.log("Connected to database!");
     app.listen(3000, () => {
